@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Blog</title>
+    <link rel="stylesheet" href="blog.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Your Personal Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="blog.html">🏠 Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="blog-post">
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="blog.css"></li>
+</head>
+<body>
+     <p class="#profile-name">Sudeep_v_r</p>
+    <main>
+        <!-- Your existing blog post sections -->
+
+        <!-- Add a section for the profile picture -->
+        <section class="profile-picture">
+            <div class="circular-image">
+                <img src="C:\Users\SUDEEP.V.R\Desktop\New folder\blog site\IMG20210522100452.jpg" alt="Profile Picture">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+            <h2>Blog Post Title 1</h2>
+            <p>Published on: <time datetime="2023-09-01">September 1, 2023</time></p>
+            <p>The question is “parallel universes are existed or not “? If they existed where we can find them?
+    Parallel universes means a universe same as ours but the incidents  from here to there may be opposite or different.
+You may know the “butterfly law” it means a butterfly will shake wings to fly, somewhere in the world some natural destruction may happen if it wouldn’t had shake its wings the incident may not have happened.
+So, for our each behavior the future will change and according to our behavior and incidents we will move from one universe to another is this possible?
+I say yes………………
+ You may have heard about time travel , according to Albert Einstein if object that travels with light speed it travels in time to future or past here the question is?
+Is time travel is possible?</p>
+            <p>
+                <span class="comment-like">
+                <span class="comment-like">
+                    <a href="#">Comment</a> | <a href="#">Like</a>
+                </span>
+                    <section class="blog-post">
+    <!-- Existing content -->
+
+    <!-- Add a comment section -->
+    <div class="comment-section">
+        <h3>Comments</h3>
+        <div class="comments"></div>
+        <textarea id="comment-input" placeholder="Add your comment"></textarea>
+        <button id="comment-button">Submit</button>
+    </div>
+</section>
+
+                </span>
+            </p>
+        </section>
+
+        <section class="blog-post">
+            <h2>Blog Post Title 2</h2>
+            <p>Published on: <time datetime="2023-09-05">September 5, 2023</time></p>
+            <p>Integer nec odio...</p>
+            <p>
+                <span class="comment-like">
+                    <a href="#">Comment</a> | <a href="#">Like</a>
+                </span>
+            </p>
+        </section>
+
+        <!-- Add more blog posts here -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Personal Blog</p>
+    </footer>
+    <script>
+        // Function to add a comment
+        function addComment() {
+            const commentInput = document.getElementById("comment-input");
+            const userComment = commentInput.value.trim();
+            if (userComment !== "") {
+                const commentsContainer = document.querySelector(".comments");
+                const commentElement = document.createElement("div");
+                commentElement.classList.add("comment");
+                commentElement.textContent = userComment;
+                commentsContainer.appendChild(commentElement);
+                commentInput.value = "";
+            }
+        }
+
+        // Add an event listener to the comment button
+        const commentButton = document.getElementById("comment-button");
+        commentButton.addEventListener("click", addComment);
+    </script>
+</body>
+</html>
